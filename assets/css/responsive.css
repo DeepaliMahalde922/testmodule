@@ -1,0 +1,123 @@
+/* Media screen info
+=================================
+1) Media width 1024px To 1199px.
+2) Media width 992px To 1023px.
+3) Media width 768px To 991px.
+4) Media width 500px To 767px.
+
+5) Media max-width 991px (0px to 991).
+6) Media max-width 767px (0px to 767).
+7) Media max-width 499px (0px to 499).
+=================================*/
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px)  {
+	
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px)  {
+	
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+	
+}
+@media only screen and (max-width: 991px)  {
+	.hc-area-wrp{
+		padding: 70px 0px; 
+	}
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px)  {
+	.hc-des .hc-des-top-text {
+	    font-size: 22px!important;
+	}
+}
+@media only screen and (max-width: 767px)  {
+	.logo-left{
+	    text-align: center;
+	}
+	.logo-right{
+	    text-align: center;
+	    margin-top: 10px;
+	}
+	.wisdom-radio {
+	    margin-bottom: 0;
+	}
+	.hc-logo-section-wrp .row{
+		margin: 0px!important;
+	}	
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px){
+
+	.hc-left-logo, .hc-right-logo{
+		width: 50%;
+		float: left;
+	}
+
+
+}
+
+@media only screen and (max-width: 576px)  {
+	.wisdom-form-section {
+	   padding: 30px 15px;
+	}
+	.wisdom-form {
+	   padding: 0 15px;
+	}
+	.hc-des{
+		padding:15px!important;
+		font-size: 14px;
+	}
+	.hc-logo-section .hc-left-logo-wrp, .hc-logo-section .hc-right-logo-wrp{
+		max-width: 100%;
+		padding: 15px 0;
+	}
+	
+	.hc-btn-wrp{
+	   margin-top: 20px;
+	}
+	.hc-btn-wrp .btn {
+	    padding: 7px 14px;
+	    font-size: 14px;
+	    border-radius: 19px;
+	}
+	.wisdom-categories-page .wfc-items .wfc-items-title h3{
+		max-width: 90%;
+		font-size: 17px;
+	}
+	.wisdom-section-title {
+	   margin-bottom: 40px;
+	}
+	.hc-ft-wrp .hc-text, .hc-ft-wrp .hc-tnc{
+	    font-size: 13px!important;
+	    margin-top: 10px;
+	}
+	.hc-des .hc-des-top-text {
+	    font-size: 18px!important;
+	}
+	.hc-des p + p{
+	  font-size: 14px;
+	}
+	.wisdom-categories-page .hc-btn-wrp .btn{
+	  width: 150px;
+	}
+
+}
+@media only screen and (max-width: 499px)  {
+	.hc-logo-section .hc-right-logo{
+		border: none;
+	}
+	.hc-logo-section .hc-left-logo-wrp a, .hc-logo-section .hc-right-logo-wrp a {
+	    max-width: 75%;
+	}
+	.hc-area-wrp{
+		margin-top: 20px;
+	}
+	.wisdom-section-title .wisdom-title {
+    	margin-top: 35px;
+	}
+	.wisdom-section-title .wisdom-title span{
+		font-size: 22px;
+	}
+
+}

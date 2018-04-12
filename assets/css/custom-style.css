@@ -1,0 +1,685 @@
+
+/*-----------------------
+Theme Color : #FF6000;
+Theme Hover Color : #ff8033;
+Text Color : #554740;
+-------------------*/
+
+/*===========================
+Montserrat Font 
+============================*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+.montserrat-font{
+   font-family: 'Montserrat', sans-serif;
+}
+body{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   color: #554740;
+   font-weight: 400;
+   background: #fff;
+   font-style: normal;
+   letter-spacing: 0.3px;
+   margin: 0;
+   padding: 0;
+}
+::-moz-selection {
+   color: #fff;
+   background: #FF6000;
+}
+::selection {
+   color: #fff;
+   background: #FF6000;
+}
+a, a:hover{
+   color: #FF6000;
+   -webkit-outline: none;
+   outline: none;
+   text-decoration: none;
+   cursor: pointer;
+}
+a:focus{
+   color: #FF6000;
+   -webkit-outline: none;
+   outline: none;
+   text-decoration: none;
+   cursor: pointer;
+}
+button, button:focus, img, img:focus, input, input:focus, textarea, 
+textarea:focus, .btn:focus, .btn:active, select, select:focus, option, option:focus{
+   -webkit-outline: none;
+   -ms-outline: none;
+   outline: none;
+}
+ul{
+   padding: 0;
+   margin: 0;
+}
+img{
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+h1, h2, h3, h4{
+   font-family: 'Montserrat', sans-serif;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   font-style: normal;
+   font-weight: 600;
+   color: #554740;
+}
+h3{
+   font-weight: 600;
+   font-size: 26px;
+   text-transform: uppercase;
+   }
+h5, h6{
+   color: #554740;   
+   font-family: 'Montserrat', sans-serif;
+   margin-top: 0;
+   margin-bottom: 0;
+   font-style: normal;
+   font-weight: 600;
+}
+section{
+   width: 100%;
+   padding:0;
+   margin: 0;
+   position: relative;
+   display: block;
+}
+.section{
+   padding-top: 70px;
+   padding-bottom: 70px; 
+   background: transparent;
+}
+p{
+   margin: 0;
+   margin-bottom: 20px;
+   line-height: 22px;
+}
+ul{
+   margin: 0;
+   padding: 0;
+}
+li.list-inline{
+   display: inline-block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.transition-200{
+   -webkit-transition: all 200ms ease;
+   -moz-transition: all 200ms ease;
+   -ms-transition: all 200ms ease;
+   -o-transition: all 200ms ease;
+   transition: all 200ms ease;
+}
+.transition-300{
+   -webkit-transition: all 300ms ease;
+   -moz-transition: all 300ms ease;
+   -ms-transition: all 300ms ease;
+   -o-transition: all 300ms ease;
+   transition: all 300ms ease;
+}
+.transition-400{
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   -ms-transition: all 400ms ease;
+   -o-transition: all 400ms ease;
+   transition: all 400ms ease;
+}
+.wrapper{
+   background: #fff;
+   width: 100%;
+   position: relative;
+}
+#main_content{
+   width: 100%;
+   position: relative;
+}
+.flex-row{
+   display: -webkit-box;   
+   display: -moz-box;      
+   display: -ms-flexbox;   
+   display: -webkit-flex;
+   display: flex;         
+}
+.flex-center{
+   display: -webkit-box;   
+   display: -moz-box;      
+   display: -ms-flexbox;   
+   display: -webkit-flex;
+   display: flex;         
+   -webkit-align-items: center;
+   -ms-align-items: center;
+   align-items: center;
+}
+.userselect-none{
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+.section-title-wrap{
+   text-align: center;
+   margin-bottom: 30px;
+}
+.section-title {
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 40px;
+   text-transform: uppercase;
+   margin: 0;
+   margin-bottom: 0;
+}
+.clearfix:after, .clearfix:before{
+   content: " ";
+   display: table;
+   clear: both;
+}
+.white-text, .white-text h1, .white-text h2, .white-text h3, .white-text h4, 
+.white-text h5, .white-text h6, .white-text p, .white-text a{
+   color: #fff;
+}
+.mdu-page{
+   width: 100%;
+   max-width: 716px;
+   margin: 0 auto;
+   background-image: url(../images/wisdom-bg.png);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: top center;  
+}
+.wisdom-page{
+   background-color: #088D4B;
+}
+.respect-page{
+   background-color: #36205A;
+}
+.sustainability-page{
+   background-color: #EA6124;
+}
+.human-development-page{
+   background-color: #AFAF9E; 
+}
+
+.value-question-page{
+   background-color: #F99F38;
+}
+/*======================================
+Wisdom Header
+======================================*/
+.wisdom-header{
+   padding: 0px 2px;
+}
+.wisdom-header-in {
+   background: #fff;
+   padding: 10px 16px;
+   padding-bottom: 4px;
+}
+.logo-left{
+   text-align: left;
+}
+.logo-right{
+   text-align: right;
+}
+.logo-right a, .logo-left a{
+   display: inline-block;
+}
+/*======================================
+Wisdom form
+======================================*/
+.wisdom-form-section{
+   padding: 40px 32px;
+}
+.wisdom-section-title {
+    margin-bottom: 64px;
+}
+.wisdom-section-title .wisdom-title {
+   margin: 0;
+   font-size: 15px;
+   font-weight: 600;
+   color: #fff;
+   line-height: 20px;
+   padding-right: 154px;
+   border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+   position: relative;
+   margin-top: 20px;
+}
+.wisdom-following p{
+    margin-bottom: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13.5px;
+}
+.wisdom-title-sub{
+   margin-bottom: 0;
+   text-transform: uppercase;
+   margin-top: 5px;
+   font-size: 13.5px;
+}
+.wisdom-section-title .wisdom-title span {
+   font-size: 28px;
+   font-weight: 300;
+   line-height: 30px;
+   color: rgba(255, 255, 255, 0.6);
+   position: absolute;
+   right: 0;
+   bottom: 1px;
+}
+.wisdom-form-wrap{
+   color: #fff;
+}
+.wisdom-form {
+    padding: 0 22px;
+}
+.wisdom-form .question-field-wrap {
+   margin-bottom: 28px;
+}
+.question-title {
+   background: #fff;
+   font-size: 13px;
+   color: #088D4B;
+   text-transform: uppercase;
+   padding: 2px 5px;
+   padding-bottom: 4px;
+   margin-top: 0;
+   margin-bottom: 5px;
+}
+.question-des {
+   font-size: 13.5px;
+   text-transform: uppercase;
+   font-weight: 400;
+   line-height: 18px;
+   margin-bottom: 15px;
+}
+.wisdom-form-wrap label, .question-des{
+   color: rgba(255, 255, 255, 0.85);
+}
+.wisdom-radio {
+    margin-bottom: 18px;
+}
+.wisdom-radio label {
+   font-size: 12px;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   position: relative;
+   padding-left: 34px;
+}
+.wisdom-radio input {
+   width: 22px;
+   height: 22px;
+   color: #fff;
+   margin: 0;
+   margin-right: 18px;
+   vertical-align: middle;
+   display: inline-block;
+   position: absolute;
+   left: 0;
+}
+.wisdom-btn-wrap{
+   text-align: center;
+}
+.wisdom-btn-wrap .btn {
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+   line-height: 18px;
+   padding: 6px 15px;
+   border-radius: 0;
+   min-width: 140px;
+   margin: 5px 7px;
+   background: #50B058;
+   text-align: center;
+   display: inline-block;
+   -webkit-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.wisdom-btn-wrap .btn:hover{
+   color: #fff;
+   opacity: 0.8;
+}
+.wisdom-btn-wrap .btn:focus{
+   color: #fff;
+}
+.wbtn-submit, .wbtn-reset, .wbtn-back{}
+
+.btn.wbtn-back{
+   background: #D3242A;
+}
+.btn.wbtn-reset{
+   background: #666663;
+}
+.value-q-text-area textarea#comments {
+    border-radius: 0px;
+}
+/*======================================
+   Home page css
+======================================*/
+
+.home-content-area{
+    width: 100%;
+    max-width: 710px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0px;
+    background: url(../images/home-page-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    border-left: 2px solid #8D908F;
+    border-right: 2px solid #8D908F;
+    position: relative;
+}
+.hc-ft-wrp {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+}
+.hc-ft-wrp {
+    padding: 10px 6px;
+    width: 100%;
+}
+.hc-ft-wrp .hc-text, .hc-ft-wrp .hc-tnc{
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+}
+.hc-ft-wrp .hc-tnc a{
+  color: #fff;
+  font-weight: 500;
+}
+.hc-ft-wrp .hc-tnc a:hover{
+  opacity: 0.7; 
+}
+
+.hc-ft-wrp .hc-text{
+  float: right;
+}
+.hc-ft-wrp .hc-tnc{
+  float: left;
+}
+.hc-inner-wrp{
+   display: table;
+}
+.hc-area-wrp{
+   display: table-cell;
+   vertical-align: middle;
+}
+.hc-area{
+   vertical-align: middle;
+   text-align: center;
+}
+.hc-logo-section .hc-left-logo, .hc-logo-section .hc-right-logo{
+   text-align: center;
+}
+.hc-logo-section .hc-right-logo{
+   border-left: 2px solid #8D908F;
+}
+.hc-logo-section .hc-left-logo-wrp, .hc-logo-section .hc-right-logo-wrp{
+   padding: 30px 0px;
+   padding: 30px 0px;
+   max-width: 74%;
+   margin: 0 auto;
+   vertical-align: middle;
+}
+.hc-logo-section .hc-left-logo-wrp a, .hc-logo-section .hc-right-logo-wrp a{
+    display: inline-block;
+}
+.hc-des{
+   text-align: center;
+   font-size: 17px;
+   text-transform: uppercase;
+   color: #fff;
+   font-weight: 500;
+   margin-top: 20px;
+   padding:15px!important;
+   background-color: rgba(0,0,0, 0.5);
+}
+.hc-des p{
+  margin-bottom: 0px
+}
+.hc-btn-wrp{
+   text-align: center;
+   margin-top: 30px;
+}
+
+.hc-btn-wrp .btn:hover, .hc-btn-wrp .btn:focus{
+   opacity: 0.9;
+}
+
+/*======================================
+   categories page
+======================================*/
+.wisdom-categories-page{
+   border-left: 2px solid #8D908F;
+   border-right: 2px solid #8D908F;
+   background-image: inherit;
+}
+.wisdom-categories-page .wisdom-header{
+   border-top: 1px solid #e0dfdf;
+   border-bottom: 1px solid #e0dfdf;
+}
+.wc-main-title{
+   text-align: center;
+   margin-bottom: 30px;
+}
+.wc-main-title h4 {
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+   color: #333;
+   font-weight: 500;
+   position: relative;
+   display: inline-block;
+   padding-bottom: 5px;
+   text-transform: uppercase;
+   line-height: 26px;
+}
+.wc-main-title h4:after{
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 1px;
+   width: 80%;
+   content: "";
+   background-color: #d2d2d2;
+   margin: 0 auto;
+}
+.wisdom-categories-page .wisdom-form-wrap{
+   max-width: 500px;
+   margin: 0 auto; 
+}
+.wisdom-categories-page .wfc-items{
+   border: 4px solid red;
+   margin-bottom: 10px;
+   padding: 10px 20px;
+   position: relative;
+}
+.wisdom-categories-page .wfc-widom {
+   background-image: url(../images/wisdom-bg.png), url(../images/wisdom-thumbnail.png);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: top center, right center;
+   background-color: #088D4B;
+   border-color: #4FAF57;
+}
+.wisdom-categories-page .wfc-respect {
+   background-image: url(../images/wisdom-bg.png), url(../images/wisdom-thumbnail-02.png);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: top center;
+   background-color: #36205A;
+   border-color: #36205A;
+}
+.wisdom-categories-page .wfc-sustainability{
+   background-image: url(../images/wisdom-bg.png), url(../images/wisdom-thumbnail-03.png);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: top center;
+   background-color: #EA6124;
+   border-color: #EA6124;
+}
+.wisdom-categories-page .wfc-human-development{
+   background-image: url(../images/wisdom-bg.png), url(../images/wisdom-thumbnail-04.png);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: top center;
+   background-color: #AFAF9E;
+   border-color: #AFAF9E;
+}
+.wisdom-categories-page .wfc-value-question{
+   background-image: url(../images/wisdom-bg.png);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: top center;
+   background-color: #F99F38;
+   border-color: #F99F38;
+}
+.wisdom-categories-page .wfc-items .wfc-items-title h3{
+   margin: 5px 0px 10px;
+   padding: 0;
+   font-size: 25px;
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 400;
+   padding-bottom: 5px;
+   max-width: 70%;
+   border-bottom: 1px solid #fff;
+}
+.wisdom-categories-page .btn{
+    display: inline-block;
+    padding: 3px 31px;
+    background-color: #fff;
+ }
+ .wisdom-categories-page .btn:hover, .wisdom-categories-page .btn:focus{
+   opacity: 0.9;
+ }
+.wisdom-categories-page .wfc-widom  .btn{
+    color: #4FAF57;
+}
+.wisdom-categories-page .wfc-respect  .btn{
+    color: #36205A;
+}
+.wisdom-categories-page .wfc-sustainability  .btn{
+    color: #EA6124;
+}
+.wisdom-categories-page .wfc-human-development  .btn{
+    color: #AFAF9E;
+}
+.wisdom-categories-page .wfc-value-question  .btn{
+    color: #F99F38;
+}
+
+/*======================================
+End Style
+======================================*/
+
+
+/*Added by Deepali*/
+.hc-btn-wrp .btn{
+   text-transform: uppercase;
+   color: #fff;
+   padding: 7px 15px;
+   font-size: 17px;
+   font-weight: 500;
+   background-color: #D3242A;
+   border-radius: 19px;
+   margin: 0 auto;
+   position: relative;
+   z-index: 999;
+}
+.hc-btn-wrp .input-group {
+    display: inline-block;
+}
+.testSect{
+   display: none;
+}
+#codeChecker{
+   display: block;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+.wisdom-categories-page .wfc-items {
+   position: relative;
+}
+
+.wisdom-categories-page .wfc-items.testComplete:after {
+   position: absolute;
+   background-image: url(../images/check-mark.png);
+   background-repeat: no-repeat;
+   background-size: inherit;
+   background-position: center center;
+   content: "|";
+   right: -38px;
+   width: 24px;
+   font-size: 0;
+   height: 24px;
+   top: 35%;
+   bottom: 0;
+}
+.hc-des .hc-des-top-text{
+   color: #ffffff ;
+   font-weight: bold;
+   font-size: 33px ;
+   line-height: 1.2;
+}
+.hc-des p{
+   line-height: 1.2;
+   color: #fff;
+}
+.hc-des p + p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.hc-logo-section-wrp{
+  background-color: #fff;
+}
+.wisdom-categories-page .hc-btn-wrp .btn{
+  width: 200px;
+}
+.wc-main-title ul{
+  list-style: none;
+  color: #333;
+  text-align: left;
+  font-weight: 500;
+}
+.wc-main-title ul li{
+  position: relative;
+  padding-left: 15px;
+}
+.wc-main-title ul li:after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "\f105";
+  width: auto;
+  height: auto;
+  font-family: fontAwesome;
+}
+.value-question-page .wisdom-section-title {
+    margin-bottom: 28px;
+}
